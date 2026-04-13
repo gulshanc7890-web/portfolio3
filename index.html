@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulshan Chauhan | Aspiring Full Stack Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">GC<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-item active" data-target="home">Home</a></li>
+            <li><a href="#about" class="nav-item" data-target="about">About</a></li>
+            <li><a href="#skills" class="nav-item" data-target="skills">Technical Skills</a></li>
+            <li><a href="#projects" class="nav-item" data-target="projects">Projects</a></li>
+            <li><a href="#soft-skills" class="nav-item" data-target="soft-skills">Soft Skills</a></li>
+            <li><a href="#resume" class="nav-item" data-target="resume">Resume</a></li>
+            <li><a href="#contact" class="nav-item" data-target="contact">Contact Me</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="content-container">
+        
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="hero">
+                <div class="hero-content">
+                    <h2 class="greeting">Hi, I'm</h2>
+                    <h1 class="name">Gulshan Chauhan</h1>
+                    <h3 class="title">Aspiring Full Stack Developer</h3>
+                    <p class="objective">
+                        A passionate BCA Final year student dedicated to building modern, responsive, and user-centric web applications. Always eager to learn new technologies and solve real-world problems.
+                    </p>
+                    <div class="hero-links" style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 0.8rem;">
+                        <a href="https://github.com/gulshanc7890-web" target="_blank" style="color: var(--text-muted); text-decoration: none; font-size: 1.1rem; transition: color 0.3s;" onmouseover="this.style.color='var(--accent-primary)'" onmouseout="this.style.color='var(--text-muted)'">
+                            <strong>GitHub:</strong> github.com/gulshanc7890-web
+                        </a>
+                        <a href="https://www.linkedin.com/in/gulshan-chauhan-355309326" target="_blank" style="color: var(--text-muted); text-decoration: none; font-size: 1.1rem; transition: color 0.3s;" onmouseover="this.style.color='var(--accent-primary)'" onmouseout="this.style.color='var(--text-muted)'">
+                            <strong>LinkedIn:</strong> linkedin.com/in/gulshan-chauhan-355309326
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="profile.png" alt="Gulshan Chauhan" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content glass-card">
+                <div class="about-text">
+                    <h3>Introduction</h3>
+                    <p>Hello! I am Gulshan Chauhan, a tech enthusiast with a strong foundation in web development. I focus on writing clean, elegant, and efficient code to create digital experiences that people love.</p>
+                    
+                    <h3>Education</h3>
+                    <ul class="education-list">
+                        <li>
+                            <div class="degree">Bachelor of Computer Applications (BCA)</div>
+                            <div class="year">Final Year</div>
+                            <div class="description">Currently pursuing my degree, focusing on core computer science subjects, programming, and software engineering principles.</div>
+                        </li>
+                    </ul>
+
+                    <h3>Career Goals</h3>
+                    <!-- <p>My objective is to become a highly skilled Full Stack Developer. I aim to work with an innovative team where I can contribute my skills, learn from experienced professionals, and build impactful software solutions.</p> -->
+                    <p>Aspiring Full Stack Developer with a strong foundation in HTML, CSS, JavaScript, React, Node.js, and MySQL, aiming to develop high-quality, scalable web applications and contribute effectively in a dynamic and growth-oriented organization.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">My <span> Technical Skills</span></h2>
+            <div class="skills-grid">
+                
+                <div class="skill-category glass-card hover-lift">
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-label"><span>Web Design</span> <span>80%</span></div>
+                        <div class="progress-bg"><div class="progress-fill" style="width: 80%"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card hover-lift">
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js (Basic)</span>
+                        <span class="skill-tag">PHP (Basic)</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-label"><span>Server Logic</span> <span>60%</span></div>
+                        <div class="progress-bg"><div class="progress-fill" style="width: 60%"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card hover-lift">
+                    <h3>Database</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">SQLite</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-label"><span>Data Management</span> <span>75%</span></div>
+                        <div class="progress-bg"><div class="progress-fill" style="width: 75%"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card hover-lift">
+                    <h3>Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-label"><span>Development Tools</span> <span>85%</span></div>
+                        <div class="progress-bg"><div class="progress-fill" style="width: 85%"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card hover-lift">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <!-- <span class="skill-tag">Python</span> -->
+                        <span class="skill-tag">Java</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-label"><span>Coding</span> <span>80%</span></div>
+                        <div class="progress-bg"><div class="progress-fill" style="width: 80%"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card hover-lift">
+                    <h3>Core Concepts</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Object-Oriented Programming (OOP)</span>
+                        <span class="skill-tag">Database Management System (DBMS)</span>
+                        <span class="skill-tag">Opreting System (OS)</span>
+                        <span class="skill-tag">Data Structures (Basic)</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-label"><span>Computer Science</span> <span>75%</span></div>
+                        <div class="progress-bg"><div class="progress-fill" style="width: 75%"></div></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+            <div class="projects-grid">
+                
+                <div class="project-card glass-card hover-lift">
+                    <div class="project-content">
+                        <h3>Online Assignment Submission Portal</h3>
+                        <p>A web-based platform designed to simplify assignment submission and management, allowing students to upload assignments based on course and department while ensuring organized storage and easy access. Key features include a structured folder system, organized database storage, and a clean, user-friendly interface.</p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/gulshanc7890-web/online-assignment-submission-portal" target="_blank" class="btn btn-outline btn-sm">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card hover-lift">
+                    <div class="project-content">
+                        <h3>Spotify Clone</h3>
+                        <p>A web-based music streaming interface inspired by Spotify, featuring a responsive and visually appealing user interface. Key features include a fully responsive design, a modern UI layout, and a clean, user-friendly experience.</p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/gulshanc7890-web/spotify_colon" target="_blank" class="btn btn-outline btn-sm">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Soft Skills Section -->
+        <section id="soft-skills" class="section">
+            <h2 class="section-title">Soft <span>Skills</span></h2>
+            <div class="skills-grid" style="display: flex; justify-content: center;">
+                <div class="skill-category glass-card hover-lift" style="width: 100%; max-width: 750px; text-align: center;">
+                    <div class="skill-tags" style="justify-content: center; gap: 1rem; margin-bottom: 0;">
+                        <span class="skill-tag" style="font-size: 1rem; padding: 0.6rem 1.2rem;">Problem-Solving</span>
+                        <span class="skill-tag" style="font-size: 1rem; padding: 0.6rem 1.2rem;">Communication</span>
+                        <span class="skill-tag" style="font-size: 1rem; padding: 0.6rem 1.2rem;">Teamwork</span>
+                        <span class="skill-tag" style="font-size: 1rem; padding: 0.6rem 1.2rem;">Adaptability</span>
+                        <span class="skill-tag" style="font-size: 1rem; padding: 0.6rem 1.2rem;">Time Management</span>
+                        <span class="skill-tag" style="font-size: 1rem; padding: 0.6rem 1.2rem;">Debugging</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="section">
+            <h2 class="section-title">My <span>Resume</span></h2>
+            <div class="resume-content glass-card center-content">
+                <div class="resume-icon">📄</div>
+                <h3>Want to know more about my experience?</h3>
+                <p>Download my resume to see a full overview of my academic background, technical skills, and projects.</p>
+                <a href="resume.html" target="_blank" class="btn btn-primary">View / Download Resume</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-grid">
+                
+                <div class="contact-info glass-card">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out for collaborations, project inquiries, or just to say hi!</p>
+                    
+                    <ul class="contact-list">
+                        <li>
+                            <span class="icon">✉️</span>
+                            <div class="details">
+                                <strong>Email</strong>
+                                <a href="mailto:gulshanc7890@gmail.com">gulshanc7890@gmail.com</a>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="icon">💼</span>
+                            <div class="details">
+                                <strong>LinkedIn</strong>
+                                <a href="https://www.linkedin.com/in/gulshan-chauhan-355309326" target="_blank">linkedin.com/in/gulshan-chauhan-355309326</a>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="icon">💻</span>
+                            <div class="details">
+                                <strong>GitHub</strong>
+                                <a href="https://github.com/gulshanc7890-web" target="_blank">github.com/gulshanc7890-web</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact-form glass-card">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm" onsubmit="event.preventDefault(); alert('Message feature ready to connect to backend!');">
+                        <div class="form-group">
+                            <input type="text" id="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" required placeholder="Your Message..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="portfolio-footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/gulshanc7890-web" target="_blank" class="social-icon" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 0C5.37 0 0 5.42 0 12.11c0 5.35 3.43 9.88 8.2 11.5.6.11.82-.26.82-.59v-2.18c-3.34.74-4.04-1.63-4.04-1.63-.55-1.41-1.34-1.79-1.34-1.79-1.09-.76.08-.74.08-.74 1.21.09 1.84 1.26 1.84 1.26 1.07 1.87 2.82 1.33 3.51 1.02.11-.79.42-1.33.76-1.64-2.67-.31-5.48-1.36-5.48-6.1 0-1.35.47-2.45 1.24-3.32-.12-.31-.54-1.57.12-3.27 0 0 1.01-.33 3.3 1.25a11.14 11.14 0 0 1 3-.41c1.02 0 2.05.14 3 .41 2.29-1.58 3.3-1.25 3.3-1.25.66 1.7.24 2.96.12 3.27.77.87 1.24 1.97 1.24 3.32 0 4.75-2.82 5.79-5.5 6.09.43.38.82 1.13.82 2.28v3.39c0 .33.22.71.83.58C20.57 21.99 24 17.46 24 12.11 24 5.42 18.63 0 12 0z"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/gulshan-chauhan-355309326" target="_blank" class="social-icon" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9h3.56v11.45zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.06-1.87-3.06-1.87 0-2.15 1.46-2.15 2.96v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.63-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"/></svg>
+                </a>
+                <a href="https://www.hackerrank.com/profile/gulshanc7890" target="_blank" class="social-icon" aria-label="HackerRank">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M11.989 0C5.357 0 0 5.396 0 12.001c0 6.634 5.357 11.999 11.989 11.999 6.645 0 12.011-5.365 12.011-11.999C24 5.396 18.634 0 11.989 0zm4.512 17.587h-1.933v-3.879H9.423v3.879H7.49V6.452h1.933v4.067h5.145V6.452h1.933v11.135z"/></svg>
+                </a>
+                <a href="https://leetcode.com/u/gulshanc7890/" target="_blank" class="social-icon" aria-label="LeetCode">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114l5.7-6.096c.537-.534.542-1.402.01-1.944a1.38 1.38 0 0 0-.97-.43z"/><path d="M22.062 13.923H9.866c-.767 0-1.388-.621-1.388-1.388 0-.767.621-1.388 1.388-1.388h12.196c.767 0 1.388.621 1.388 1.388 0 .767-.621 1.388-1.388 1.388z"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+</html>
